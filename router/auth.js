@@ -10,10 +10,6 @@ const cookieParser = require("cookie-parser");
 require("../db/conn");
 router.use(cookieParser());
 
-router.get("/", function(req, res){
-    res.send("Hello world from backend.");
-});
-
 // Register route
 router.post("/register", async (req, res) => {
 
