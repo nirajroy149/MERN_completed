@@ -1,0 +1,114 @@
+#contact{
+    background: linear-gradient(#a8ff78, #78ffd6);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+} 
+
+#contact .contact-info{
+    width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#contact .contact-info .info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    padding: 12px 18px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 9px -3px black;
+    background-color: #fff;
+
+}
+#contact .contact-form{
+    text-align: center;
+    margin-bottom: 50px;
+    width: 800px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 2px 9px -3px black;
+}
+.contact-form input{
+    width: 30%;
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px solid gainsboro;  
+    transition: all 0.3s ease;
+}
+.contact-form input:focus{
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+.contact-form textarea{
+    color: blue;
+    width: 92.5%;
+    padding: 10px;
+    margin: 10px 5px;
+    border: 2px solid gainsboro;
+}
+.contact-form textarea:focus{
+    outline: none;
+}
+.contact-form .heading{
+    text-align: left;
+    margin-left: 28px;
+}
+#contact form div{
+    margin-top: 50px;
+}
+.info i{
+    margin-right: 15px;
+    color: blue;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1010px){
+    #contact .contact-info{
+        width: 900px;
+    }
+    #contact .contact-form{
+        width: 800px;
+    }
+}
+@media (max-width: 900px){
+    #contact .contact-info{
+        width: 100%;
+        
+    }
+    #contact .contact-form{
+        width: 95%;
+    }
+}
+@media (max-width: 890px){
+    #contact .contact-info{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #contact .contact-info .info{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #contact .contact-form{
+        width: 90%;
+    }
+    .contact-form div input{
+        width: 92%;
+    }
+}
+@media (max-width: 800px){
+    #contact .contact-info{
+        width: 90%;
+    }
+}

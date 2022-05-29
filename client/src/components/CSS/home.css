@@ -1,0 +1,22 @@
+#home{
+    width: 100%;
+    min-height: 95vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(90deg, #dce6f1 50%, #f8f9fa 50%); */
+    background: linear-gradient(#a8ff78, #78ffd6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#home p{
+    font-weight: bold;
+    color: blue;
+    letter-spacing: 3px;
+}
+#home h1{
+   font-weight: bolder;
+}

@@ -1,0 +1,25 @@
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    margin-left: 20px;
+}
+
+.span1{
+    color: green;
+}
+.span2,.span4{
+    color: black;
+}
+.span3{
+    color: skyblue;
+}
+
+@media (max-width: 992px){
+    .nav-item{
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    
+}
