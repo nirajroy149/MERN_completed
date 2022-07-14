@@ -5,4 +5,4 @@ For accessing about and contact page user have to first signup and login into
 the website. Once the user is logged in successfully next time the user dosen't
 have to log in as the app saves the cookies as well (fully jwt integrated app).
 
-For live demo visit https://nirajmernproject2.herokuapp.com/contact (takes 1 min approx to load)
+For live demo visit https://nirajmernproject2.herokuapp.com/ (takes 1 min approx to load)
